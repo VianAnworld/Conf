@@ -208,6 +208,9 @@ config lan_access_control
 	option 'enabled' '1'
 	option 'dns' '1'
 	option 'proxy' '1'
+	list 'mac' '设备一'
+	list 'mac' '设备二'
+	list 'mac' '设备三'
 
 config routing 'routing'
 	option 'tproxy_fw_mark' '0x80'
