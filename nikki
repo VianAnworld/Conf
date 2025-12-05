@@ -11,7 +11,7 @@ config config 'config'
 	option 'core_only' '0'
 
 config procd 'procd'
-	option 'fast_reload' '0'
+	option 'fast_reload' '1'
 	option 'env_disable_loopback_detector' '0'
 	option 'env_disable_quic_go_gso' '0'
 	option 'env_disable_quic_go_ecn' '0'
