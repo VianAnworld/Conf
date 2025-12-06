@@ -225,6 +225,7 @@ config lan_access_control
 	list 'mac' '设备一'
 	list 'mac' '设备二'
 	list 'mac' '设备三'
+	list 'mac' '设备四'
 
 config routing 'routing'
 	option 'tproxy_fw_mark' '0x80'
